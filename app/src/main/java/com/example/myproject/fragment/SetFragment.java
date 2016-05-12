@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.example.myproject.MainActivity;
 import com.example.myproject.R;
@@ -24,6 +25,8 @@ import butterknife.OnClick;
 public class SetFragment extends BaseFragment {
     @Bind(R.id.theme_realy)
     RelativeLayout themeRealy;
+    @Bind(R.id.title_text)
+    TextView titleText;
     private MainActivity context;
     private Object params;
     private int fromIndex;
@@ -88,11 +91,12 @@ public class SetFragment extends BaseFragment {
                 break;
         }
     }
-    private void themeActivity(){
-        Intent intent=new Intent(context, ThemeActivity.class);
-        startActivityForResult(intent,MainActivity.setThemeValue);
-    }
-    public void flashTheme(){
 
+    private void themeActivity() {
+        Intent intent = new Intent(context, ThemeActivity.class);
+        startActivityForResult(intent, MainActivity.setThemeValue);
+    }
+
+    public void flashTheme() {
     }
 }

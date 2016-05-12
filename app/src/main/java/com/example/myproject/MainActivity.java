@@ -372,7 +372,9 @@ public class MainActivity extends BaseOnBackActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK && requestCode == setThemeValue) {
-            switchSetFragment();
+//            switchSetFragment();
+            SetFragment setFragment=(SetFragment)fragments[Constant.setStatue];
+            setFragment.flashTheme();
             swtichTab(5);
         }
     }
