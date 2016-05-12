@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_user_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bak"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/tab_top1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="主题设定"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/set_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@mipmap/in_arrow_left_on"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="设定"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/targer_weight_realy"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="主题"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+                        <RelativeLayout
+                            android:id="@+id/theme1_lineary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1" >
+                            <ImageView
+                                android:id="@+id/theme1_cicle"
+                                android:layout_width="38dp"
+                                android:layout_height="38dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/grey_tang_circle" />
+                            <ImageView
+                                android:layout_width="26dp"
+                                android:layout_height="26dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rang_circle1" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/theme2_lineary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1" >
+                            <ImageView
+                                android:id="@+id/theme2_cicle"
+                                android:layout_width="38dp"
+                                android:layout_height="38dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/grey_tang_circle" />
+                            <ImageView
+                                android:layout_width="26dp"
+                                android:layout_height="26dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rang_circle2" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/theme3_lineary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:id="@+id/theme3_cicle"
+                                android:layout_width="38dp"
+                                android:layout_height="38dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/grey_tang_circle" />
+                            <ImageView
+                                android:layout_width="26dp"
+                                android:layout_height="26dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rang_circle3" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/theme4_lineary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:id="@+id/theme4_cicle"
+                                android:layout_width="38dp"
+                                android:layout_height="38dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/grey_tang_circle" />
+                            <ImageView
+                                android:layout_width="26dp"
+                                android:layout_height="26dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rang_circle4" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/theme5_lineary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:id="@+id/theme5_cicle"
+                                android:layout_width="38dp"
+                                android:layout_height="38dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/grey_tang_circle" />
+                            <ImageView
+                                android:layout_width="26dp"
+                                android:layout_height="26dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rang_circle5" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/theme6_lineary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:id="@+id/theme6_cicle"
+                                android:layout_width="38dp"
+                                android:layout_height="38dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/grey_tang_circle" />
+                            <ImageView
+                                android:layout_width="26dp"
+                                android:layout_height="26dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rang_circle6" />
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/theme7_lineary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_weight="1" >
+
+                            <ImageView
+                                android:id="@+id/theme7_cicle"
+                                android:layout_width="38dp"
+                                android:layout_height="38dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/grey_tang_circle" />
+                            <ImageView
+                                android:layout_width="26dp"
+                                android:layout_height="26dp"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/rang_circle7" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@android:color/darker_gray" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

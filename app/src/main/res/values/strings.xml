@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MyProject</string>
+    <string name="tab_home">主页</string>
+    <string name="tab_recommed">推荐</string>
+    <string name="tab_record">记录</string>
+    <string name="tab_message">消息</string>
+    <string name="tab_setting">设定</string>
+    <string name="cancel">取消</string>
+    <string name="confrim">确认</string>
+    <string name="exitmessage">真的要退出吗?</string>
 </resources>

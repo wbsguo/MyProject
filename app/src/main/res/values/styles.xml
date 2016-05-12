@@ -7,5 +7,25 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="SetTheme1" parent="AppTheme">
+        <item name="colorValue">@color/tab_top1</item>
+    </style>
+    <style name="SetTheme2">
+        <item name="colorValue">@color/tab_top2</item>
+    </style>
+    <style name="SetTheme3">
+        <item name="colorValue">@color/tab_top3</item>
+    </style>
+    <style name="SetTheme4">
+        <item name="colorValue">@color/tab_top4</item>
+    </style>
+    <style name="SetTheme5">
+        <item name="colorValue">@color/tab_top5</item>
+    </style>
+    <style name="SetTheme6">
+        <item name="colorValue">@color/tab_top6</item>
+    </style>
+    <style name="SetTheme7">
+        <item name="colorValue">@color/tab_top7</item>
+    </style>
 </resources>

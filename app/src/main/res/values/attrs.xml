@@ -1,0 +1,5 @@
+<resources>
+    <!--自定义主题-->
+    <attr name="colorValue" format="color" />
+    <attr name="shareDrawable" format="reference"/>
+</resources>
